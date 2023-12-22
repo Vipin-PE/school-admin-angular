@@ -1,0 +1,27 @@
+:root {
+    --sl-color-one: #ebe9e9;
+    --sl-color-two: #ffffff;
+    --sl-color-three: #808080;
+    //login-page
+    --lp-color-one: #141e30;
+    --lp-color-first: #243b55;
+    --lp-color-two: #00000080;
+    --lp-color-three: #03e9f4;
+    --lp-color-four: #ffffff;
+    --lp-color-five: #00000099;
+    --lp-color-six: #ff0000;
+
+}
+
+$sl-color-one:  #{var(--sl-color-one)} !default;
+$sl-color-two: #{var(--sl-color-two)} !default;
+$sl-color-three: #{var(--sl-color-three)} !default;
+//login-page
+$lp-color-one:  #{var(--lp-color-one)} !default;
+$lp-color-first:  #{var(--lp-color-first)} !default;
+$lp-color-two:  #{var(--lp-color-two)} !default;
+$lp-color-three:  #{var(--lp-color-three)} !default;
+$lp-color-four:  #{var(--lp-color-four)} !default;
+$lp-color-five:  #{var(--lp-color-five)} !default;
+$lp-color-six:  #{var(--lp-color-six)} !default;
+

@@ -1,0 +1,65 @@
+@use "../../../../../assets/scss/abstract/index.scss" as *;
+
+.container {
+    background-color: $sl-color-one;
+    height: 100vh;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.child_container {
+    background-color: $sl-color-two;
+    height: 700px;
+    width: 90%;
+    box-shadow: 0 4px 8px  rgb(172, 168, 168);
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-weight: 500;
+}
+
+.sibling {
+    // background-color: white;
+    width: 95%;
+    max-height: 570px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    overflow-y: auto;
+}
+
+// .small_child {
+//     background-color: #808080;
+//     color: white;
+//     height: 140px;
+//     width: calc(33.33% - 20px);
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+// }
+
+.img{
+    height: 55px;
+    width: 55px;
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon {
+    height: 25px;
+    width: 25px;
+}
+
+@include mobile {
+    .small_child {
+        width: calc(50% - 15px);
+    }
+}

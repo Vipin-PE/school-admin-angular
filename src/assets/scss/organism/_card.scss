@@ -1,0 +1,23 @@
+// .ap-card {
+//     border: 1px solid red;
+//     padding: 20px;
+//     &__body {
+//     background-color: blue;
+//     }
+//     &__title{
+
+//     }
+
+//     &--title-padd{
+
+//     }
+// }
+.small_child {
+    background-color: $sl-color-three;
+    color: white;
+    height: 140px;
+    width: calc(33.33% - 20px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
